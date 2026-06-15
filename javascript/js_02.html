@@ -1,0 +1,25 @@
+<html>
+      <head>
+             <title>javascript 02</title>
+             <script>
+                alert("you clicked refresh or reloaded the page.");
+            //   let name = prompt("What is your name?");
+            //  alert("my name is:" + name);
+            //  let firstNum = prompt("Enter the first number: ");
+            //  let secondNum = prompt("Enter the second number: ");
+            //  let sum = parseFloat(firstNum) + parseFloat(secondNum);
+            //  alert("Answer is:" + sum);
+
+                function clickme(){
+                    let firstNum = prompt("Enter the first number: ");
+                    let secondNum = prompt("Enter the second number: ");
+                    let sum = parseFloat(firstNum) + parseFloat(secondNum);
+         
+                    alert("Answer is:" + sum)
+                }
+             </script>
+    </head>
+    <body>
+        <button onclick="return clickme()">Click me</button>
+    </body>
+</html>
