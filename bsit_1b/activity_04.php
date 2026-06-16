@@ -25,7 +25,7 @@
 
         $num1 = $_POST["txtNum1"];
         $num2 = $_POST["txtNum2"];
-
+        $op = $_POST["op"];
         $addition = $num1 + $num2;
         $subtraction = $num1 - $num2;
         $multiplication = $num1 * $num2;
@@ -33,12 +33,16 @@
 
         echo "First Number: <strong>".$num1."</strong><br>";
         echo "Second Number: <strong>".$num2."</strong><br><br>";
-
-        echo "Addition: <strong>".$addition."</strong><br>";
-        echo "Subtraction: <strong>".$subtraction."</strong><br>";
-        echo "Multiplication: <strong>".$multiplication."</strong><br>";
-        echo "Division: <strong>".$division."</strong><br><br>";
-
+        
+    if ($op=="Add"){
+        echo "Sum: <strong>".$addition."</strong><br>";
+    } else if ($op=="Sub") {
+        echo "Difference: <strong>".$subtraction."</strong><br>";
+    } else if ($op=="Mul"){
+        echo "Product: <strong>".$multiplication."</strong><br>";
+    } else {
+        echo "Quotient: <strong>".$division."</strong><br><br>";
+    } 
         echo "<a href='activity_04.php'>Back</a>";
 
     } else {
@@ -51,6 +55,13 @@
         <label>Second Number</label><br>
           <input type="text" name="txtNum2" id="txtNum2" placeholder="Second Number..."><br>
 
+        <label>Operation</label><br>
+            <select name="op">
+                <option value="Add">Addition (+)</option>
+                <option value="Sub">Subtraction (-)</option>
+                <option value="Mul">Multiplication (*)</option>  
+                <option value="Div">Division (/)</option>  
+
         <input type="submit" name="btnSubmit" value="Compute">
     </form>
 
@@ -58,4 +69,6 @@
 
     </body>
 </html>
+
+
 
