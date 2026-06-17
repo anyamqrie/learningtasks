@@ -1,0 +1,16 @@
+body 
+{
+    background-color: #ffebeb;
+    font-family: Tahoma;
+    justify-content: center;
+    align-items: center;
+}
+
+.login
+{
+    border: 3px solid #3a3037;
+    background-color: rgb(155, 139, 149);
+    margin: 250px;
+    text-align: center;
+    border-radius: 15%;
+}
