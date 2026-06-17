@@ -5,7 +5,7 @@
 <div>
 <h3><i>Natural Disasters: Mindanao Quake Aftermath</i></h3>
 </p>In the Philippines, the death toll from the devastating 7.8 magnitude earthquake that struck Mindanao on June 8 has risen to 65. The Philippine Institute of Volcanology and Seismology (Phivolcs) reported significant ground deformation and coastal uplift in parts of Sarangani and General Santos City. Emergency response teams and the PNP remain on high alert, actively patrolling the hardest-hit areas.</p>
-<img src="images/df.png" width="600" height="375">
+<img src="images/mind.jpg" width="600" height="375">
 </div>
 
 <br><br>
